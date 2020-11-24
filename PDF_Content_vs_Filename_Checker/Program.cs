@@ -17,6 +17,7 @@ namespace PDF_Content_vs_Filename_Checker
 
         /* Norbert Olah, 2020-11-24
          * extract text from PDF and comapre with filename using regex patterns
+         *
          * 
          * prupose of the app: there is a misterious error in our DocComp sw, where IDs are mixed in certain situations. 
          * this program is intended to check all the PDFs and extract text in a specified position and based on a regex patter
