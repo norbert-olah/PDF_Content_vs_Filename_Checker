@@ -9,6 +9,7 @@ Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		Description = extract text from PDF and comapre with filename using regex patterns
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BBE459EA-62C2-422B-8C9D-388059F28699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
