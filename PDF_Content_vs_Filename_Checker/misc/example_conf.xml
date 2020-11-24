@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<Options xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Pages>2</Pages>
+  <FileNameSearchPattern>_([A-Z0-9]{13})</FileNameSearchPattern>                           <!-- the result of this search will be the content of the 1st capture group in the regex -->
+  <PdfContentSearchPattern>banki\sazonosító:\s*?([A-Z0-9-]{15})</PdfContentSearchPattern>  <!-- the result of this search will be the content of the 1st capture group in the regex -->
+  <PdfContentSearchPattern2>[0-9A-Z]</PdfContentSearchPattern2>                            <!-- additional filter on the first PdfContentSearchPattern, the result will be the concatenation of the matches -->
+  <SearchRegion> <!-- unit is millimeters -->
+    <X>15</X>
+    <Y>70</Y>
+    <Width>110</Width>
+    <Height>30</Height>
+  </SearchRegion>
+</Options>
