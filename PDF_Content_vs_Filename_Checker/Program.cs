@@ -38,6 +38,8 @@ namespace PDF_Content_vs_Filename_Checker
                 Console.WriteLine("A program új verziójában 2 kötelező paraméter van: 1: beállítások XML fájlja és 2: a keresési feltétel a fájlokra.");
                 Console.WriteLine(@"Keresési feltétel lehet minta, pl.: c:\teszt\*.pdf  vagy konkrét fájl, c:\teszt\akármi.pdf");
                 Console.WriteLine("A program egy eredmeny.csv fájlba fogja írni a találatokat.");
+                Console.WriteLine();
+                Console.WriteLine("This program is licensed under the GNU Affero General Public License v3.0");
 
                 if (Debugger.IsAttached)
                 {
